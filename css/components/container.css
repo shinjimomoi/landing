@@ -1,0 +1,32 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+
+  .container {
+    width: 500px;
+    margin: 0 auto
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    width: 240px;
+    margin: 0 auto
+  }
+
+  .flex {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,23 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+li > a {
+  color: #1ADD87;
+  font-size: 24px;
+  transition: .3s;
+}
+
+li > a:hover {
+  color: #16c378;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 8px 0 8px;
+}
